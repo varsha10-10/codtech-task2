@@ -1,0 +1,30 @@
+import java.util.*;
+class Main
+{
+    public static void main(String args[])
+{
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter the marks");
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    int c=sc.nextInt();
+    int avg=(a+b+c)/3;
+    System.out.println("average :"+avg);
+    if(avg>91 && avg<=100)
+    System.out.println("O grade");
+    else if(avg>81 && avg<=90)
+    System.out.println("A+ grade");
+    else if(avg>71 && avg<=80)
+    System.out.println("A grade");
+    else if(avg>61 && avg<=70)
+    System.out.println("B+ grade");
+    else if(avg>51 && avg<=60)
+    System.out.println("B grade");
+    else if(avg>41 && avg<=50)
+    System.out.println("C grade");
+    else
+    System.out.println("fail");
+    
+}
+
+}
